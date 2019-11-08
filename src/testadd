@@ -1,0 +1,78 @@
+  {/* <h5>Address</h5>
+          <div className="row">
+            <div className="col-4">
+              <div className="form-group">
+                <label htmlFor="formGroupExampleInput">Address</label>
+                <textarea rows={5} className="form-control" id="formGroupExampleInput" placeholder="" />
+              </div>
+            </div>
+            <div className="col-4">
+             <div>
+             <div className="city">
+            <label htmlFor="formGroupExampleInput">City/Municipality</label>
+            <input type="text" className="form-control" id="formGroupExampleInput" placeholder=" " />
+                </div>
+              </div>
+              <div>
+
+                <div className="province">
+                  <label htmlFor="formGroupExampleInput">Province/State</label>
+                  {(this.state.selectedCountry === 0 || this.state.selectedCountry === 214) && <select className="form-control"  >
+                    {
+                      states.map((v, i) => {
+                        return (
+                          <option key={i} value="i">{v}</option>
+                        )
+                      })
+                    }
+                  </select>}
+                  {
+                    (this.state.selectedCountry !== 0 && this.state.selectedCountry !== 214) && <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Enter a state " />
+                  }
+
+                </div>
+              </div>
+            </div>
+            <div className="col-4">
+              <div>
+                <div className="contry">
+                  <label htmlFor="formGroupExampleInput">Country</label>
+                  <select className="form-control" defaultValue="0" onChange={e=> this.selectCountry(e)} >
+                    {
+                      this.state.countries.map((v, i) => {
+                        return (
+                          <option key={i} value={i}>{v}</option>
+                        )
+                      })
+                    }
+                  </select>
+                </div>
+              </div>
+              <div>
+                <div className="postalcode">
+                  <label htmlFor="formGroupExampleInput">Postal/Zip Code</label>
+                  <input type="text" className="form-control" maxLength= {8} id="formGroupExampleInput" placeholder=" " onChange={e => this.getValidator(e)} />
+                    {!this.state.zipvalidator && 'Invalid zip code entered'}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-4">
+              <div className="form-group">
+                <label htmlFor="formGroupExampleInput">Home Quarter</label>
+                <input type="text" className="form-control" id="formGroupExampleInput" placeholder=" " />
+              </div>
+            </div>
+            <div className="col-4">
+              <div className="form-group align-residence">
+                <div className="form-check">
+                  <input className="form-check-input" type="checkbox" id="gridCheck" />
+                  <label className="form-check-residence" htmlFor="gridCheck">
+                    Residence is the same as listed address
+                </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr className="marigin"/> */}

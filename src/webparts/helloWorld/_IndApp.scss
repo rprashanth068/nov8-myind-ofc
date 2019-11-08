@@ -1,0 +1,316 @@
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}
+.App {
+  text-align: center;
+}
+
+.myform{
+  border: 1px solid #52525B;
+  background-color: #cccccc;
+  padding-left: 10px;
+  font-size: 12px;
+  overflow-y: scroll;
+  max-height: 900px;
+}
+
+
+.mainContainer{
+  margin-top:40px;
+  margin-bottom: 40px;
+  box-shadow: 8px 10px 8px #52525B;
+  padding: 0px;
+}
+.contactHeader{
+  background-color: #000033;
+  height: 34px;
+  color: white;
+  font-size: 15px;
+
+  margin: 0px;
+  padding: 10px;
+}
+.contactToolbar{
+  background-color: #52525B;
+  height: 34px;
+  padding-left: 5px;
+  color: white;
+}
+.saveicons{
+  margin: 2px;
+  padding: 2px;
+  margin-top: 5px;
+
+  }
+  .deleteicons{
+    margin: 2px;
+    padding: 2px;
+
+
+    }
+    .editicons{
+      margin: 2px;
+      padding: 2px;
+    }
+
+    .togglecontrol {
+      margin-left: 100px;
+       padding: 5px;
+       margin-top: -25px;
+       display: inline-block;
+       position: relative;
+
+
+     }
+
+     .namemargin {
+      margin-top: 15px;
+    }
+
+     .container myform{
+      font-size: 12px;
+    }
+
+.homephn {
+  width: 100px;
+  color:red;
+
+}
+.mobileno {
+  width: 100px;
+  margin-left:-70px;
+
+}
+.businessphn {
+  width: 100px;
+  margin-left:-138px;
+}
+.extension{
+  width: 50px;
+  margin-left:-203px;
+}
+.faxno{
+  width: 100px;
+  margin-left:-225px;
+}
+.city{
+  width: 150px;
+  margin-left: 20px;
+}
+.province{
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.contry{
+  width: 150px;
+  margin-left: -150px;
+}
+.postalcode{
+  width: 150px;
+  margin-left: -150px;
+  margin-top: 10px;
+}
+.email{
+  margin-top: 10px;
+}
+
+  .form-check-box {
+  margin-top: 5px;
+  margin-left: 2.25rem;
+}
+.form-check-residence{
+  margin-top: 0px;
+  margin-left: 10px;
+
+}
+
+.usericonAlign{
+  margin-top: 5px;
+  margin-left: -25px;
+}
+.edit_ico {
+  margin: 6px;
+  padding: 2px;
+}
+
+.align-residence{
+  margin-top: 25px;
+  margin-left: 20px;
+
+}
+.align-deceased{
+margin-top: 30px;
+}
+.icons-align{
+  margin-top: 0px;
+  margin-left: -40px;
+  padding:  2px 0 0 30px;
+
+
+}
+
+.custom-form-input{
+  margin-bottom: 2px!important;
+}
+
+.scroll-table{
+  max-height: 150px;
+  max-width: 1115px;
+  overflow-y: scroll;
+  padding-right: 0px;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+tbody{
+
+  max-height: 150px;
+  max-width: 1250px;
+  overflow-y: scroll;
+}
+
+
+.table td{
+  min-height: 49px;
+}
+
+.form-checkbox-align{
+  margin-bottom: 20px;
+
+
+}
+.checkbox{
+  margin-left: 5px;
+    margin-top: 2px;
+}
+table{
+  margin:0px;
+  padding:0px;
+}
+th:first-child {
+  width:215px;
+}
+td:first-child
+{
+
+    width:1px;
+}
+td:nth-child(3){
+  width:100px;
+}
+td:nth-child(4){
+  width:150px;
+}
+
+th:nth-child(3){
+  width:100px;
+}
+th:nth-child(4){
+  width:170px;
+}
+thead{
+   background-color: rgba(0,0,0, 0.16);
+}
+
+input[checkbox]{
+  transform: scale(2);
+
+}
+table input[type=checkbox]{
+  transform: scale(0.8);
+
+}
+.form-check-input {
+  width: 20px !important;
+  height: 20px !important;
+  margin-top: -0.2rem;
+  margin-left: -15px;
+}
+
+  .plusicon{
+
+    padding: 2px;
+    margin: 2px;
+    margin-left: 72px;
+  }
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #e9ecefc7;
+}
+.togglespan{
+  padding-top: 3px;
+  display: inline-block;
+}
+.toggleupperspace{
+  padding-top:25px;
+  margin-left: 25px;
+}
+.labelposition{
+  margin-right: 20px;
+}
+.table thead th{
+  vertical-align: initial;
+}
+.form-check-align{
+  padding-left: 1rem;
+}
+.contactcolsize{
+  max-width: 150px;
+}
+.tax{
+  max-width: 150px;
+}
+.marigin{
+  border: none;
+  height: 1px;
+  background-color:rgba(33, 33, 33, 0.75);
+}
+label {
+  display: inline-block;
+  margin-bottom: -0.5rem;
+}
+
+.fa-folder:before {
+  content: "\f07b";
+  margin-left: 72px;
+}
+.form-control-te {
+  width: 107%;
+  margin-bottom: 20px;
+}
+.required{
+  color: red!important;
+}
+
+.table{
+
+  margin-bottom: -1rem;
+
+}
+
+.tableborder{
+  padding: 15px;
+    padding-right: 8px;
+    margin-top: -34px;
+
+}
+
+.table, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+th, td {
+  padding: 10px;
+}
+th {
+  text-align: left;
+}
+
+.flexContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
